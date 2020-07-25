@@ -1,6 +1,5 @@
 * {
     font-family: 'Lato', sans-serif;
-    box-sizing: border-box;
 }
 
 html {
@@ -500,6 +499,14 @@ a[target="_blank"] {
     font-size: 13px;
 }
 
+.css-1259ouq {
+    content: attr(href);
+    font-size: 0.7em;
+    font-weight: normal;
+    display: block;
+    color: #3333ff;
+}
+
 @media print {
     .css-1259ouq:after {
         content: attr(href);
@@ -507,6 +514,9 @@ a[target="_blank"] {
         font-weight: normal;
         display: block;
         color: #3333ff;
+    }
+    .css-1259ouq-hide:after {
+        display: none;
     }
 }
 
@@ -593,6 +603,7 @@ a[target="_blank"] {
 @media print {
     .css-1k45bwb {
         text-align: left;
+        color: #000;
     }
 }
 
