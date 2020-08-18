@@ -595,9 +595,9 @@ a[target="_blank"] {
 }
 
 @media(max-width: 600px) {
-    .css-1k45bwb {
+    /* .css-1k45bwb {
         text-align: center;
-    }
+    } */
 }
 
 @media print {
