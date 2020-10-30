@@ -16,6 +16,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta property="og:site_name" content="Numan">
     <meta name="twitter:image:alt" content="Numan">
+    <script src="js/index.js"></script>
 </head>
 
 <body data-gr-c-s-loaded="true" style="">
@@ -63,7 +64,14 @@
                         <dt class="css-1m6anh9">Address</dt>
                         <dd class="css-1wvklo8">Okara, Pakistan</dd>
                     </dl>
-                    <p class="css-xw9las"><a class="css-1wrwiw8" href="docs/numan-cv.pdf" download="numan-cv.pdf">Download CV</a><a class="css-1wrwiw8 primary" href="mailto:muhammadnuman70@gmail.com">Contact</a></p>
+                    
+                    <p class="css-xw9las">
+                        <select class="css-1wrwiw8" id="select-download-resume" onchange="javascript:onDownloadResumeHandler(this.value)">
+                            <option value="0">Resume</option>
+                            <option value="1">Download Resume</option>
+                            <option value="2">Download Web Resume</option>
+                        </select>
+                        <a class="css-1wrwiw8 primary" href="mailto:muhammadnuman70@gmail.com">Contact</a></p>
                 </div>
             </div>
         </div>
