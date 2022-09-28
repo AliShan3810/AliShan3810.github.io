@@ -51,6 +51,13 @@
         f.parentNode.insertBefore(j, f);
       })(window, document, "script", "dataLayer", "GTM-5T9HGDT");
     </script>
+    <style>
+      table {
+        width: 100%;
+      }
+    </style>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
   </head>
 
   <body data-gr-c-s-loaded="true" style="">
@@ -171,15 +178,7 @@
           <div class="css-hd33gx">
             <ul class="css-1d7uo79">
               <li class="css-13qvviv">
-                <iframe
-                  width="100%"
-                  height="510"
-                  frameborder="0"
-                  src="data:text/html;charset=utf-8,
-                            <head><base target='_blank' /></head>
-                            <body><script src='https://gist.github.com/numandev1/1d0570ea7f5adcd72a0466a322032eb2.js'></script>
-                            </body>"
-                ></iframe>
+                <div id="profileMarkdown" style="width:100%;"></div>
               </li>
             </ul>
           </div>
@@ -1379,5 +1378,21 @@
         </div>
       </div>
     </section>
+      <script>
+        document.getElementById('profileMarkdown').innerHTML =
+          marked.parse(`
+| Plateform                                                                                                                                                                                                                              | Progress                                                                                                                                                                                                            |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [<img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" width="40" /> Github ](https://github.com/numandev1)                                                                                                     | [![GitHub Repo stars](https://img.shields.io/github/followers/numandev1.svg?style=for-the-badge&logo=github&logoColor=white&maxAge=2592000)](https://github.com/numandev1)                                            |
+| [<img src="https://pbs.twimg.com/profile_images/1220067947798024192/30eZhfxx_400x400.png" width="40" /> Stackoverflow ](https://stackoverflow.com/users/8079868/muhammad-numan?tab=profile)                                                      | [![GitHub Repo stars](https://img.shields.io/stackexchange/stackoverflow/r/8079868?label=StackOverFlow&logo=stackoverflow&style=for-the-badge)](https://stackoverflow.com/users/8079868/muhammad-numan?tab=profile) |
+| [<img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="40" /> Linkedin ](https://www.linkedin.com/in/numandev1/)                                                                                                                | [![GitHub Repo stars](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/numandev1/)                                                       |
+| [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/2560px-YouTube_full-color_icon_%282017%29.svg.png" width="40" /> Youtube ](https://www.youtube.com/channel/UCYCUspfN7ZevgCj3W5GlFAw) | <a href="https://www.youtube.com/channel/UCYCUspfN7ZevgCj3W5GlFAw"><img src="https://img.shields.io/youtube/channel/subscribers/UCYCUspfN7ZevgCj3W5GlFAw?style=social" height="36" /><a/>          |
+| [<img src="https://d2fltix0v2e0sb.cloudfront.net/dev-black.png" width="40" /> Dev.to ](https://dev.to/numandev1)                                                                                                                                  | [![GitHub Repo stars](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white)](https://dev.to/numandev1)                                                                       |
+| [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" width="40" /> Instagram ](https://www.instagram.com/numandev1)                                                                | [![GitHub Repo stars](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/numandev1)                                                       |
+| [<img src="https://cdn.icon-icons.com/icons2/1826/PNG/512/4202110facebooklogosocialsocialmedia-115707_115594.png" width="40" /> Facebook Page ](https://www.facebook.com/numandev1)                                                              | [![GitHub Repo stars](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)](https://www.facebook.com/numandev1)                                                   |
+| [<img src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/twitter_circle-512.png" width="40" /> Twitter ](https://twitter.com/numandev1)                                                                            | [![GitHub Repo stars](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/numandev1)                                                   |
+
+          `);
+      </script>
   </body>
 </html>
